@@ -48,7 +48,7 @@ def home():
             days = (target_date - today).days
             
             if days > 0:
-                mensaje = f"Faltan {days} días para el objetivo."
+                mensaje = f"Faltan {days} días."
             elif days == 0:
                 mensaje = "¡Es hoy! El día ha llegado."
             else:
